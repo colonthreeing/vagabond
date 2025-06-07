@@ -1,0 +1,17 @@
+{
+	"id": "vagabond",
+	"name": "Vagabond",
+	"author": ["colonthreeing"],
+	"description": "Adds content surrounding the streamer @vagabondbalatro on Twitch.",
+	"prefix": "vaga",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_text_colour": "FFFFFF",
+	"display_name": "Vagabbond",
+	"version": "0.1.0~a",
+	"dependencies": [
+		"Steamodded (>=1.*)",
+		"Lovely (>=0.6)"
+	],
+	"conflicts": []
+}
