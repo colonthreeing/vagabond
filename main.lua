@@ -1,8 +1,17 @@
-SMODS.Back{
+SMODS.Atlas {
+    key = "Vagabond",
+    path = "Vagabond.png",
+
+    px = 71,
+    py = 95
+}
+
+
+SMODS.Back {
     name = "Vagabonded Deck",
     key = "vagabonded",
-    pos = {x = 1, y = 3},
-    config = {only_one_rank = "4"},
+    pos = {x = 0, y = 0},
+    atlas = "Vagabond",
     loc_txt = {
         name ="Vagabonded Deck",
         text={
