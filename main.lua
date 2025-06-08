@@ -15,7 +15,7 @@ SMODS.Back {
     loc_txt = {
         name ="Vagabonded Deck",
         text={
-            "Start with {C:money}$-20{} and",
+            "Start with {C:money}$-10{} and",
             "earn no {C:attention}Interest{}, but all",
             "{C:tarot}Tarot{} cards and packs",
             "are free."
@@ -26,7 +26,7 @@ SMODS.Back {
         
         G.E_MANAGER:add_event(Event({
             func = function()
-                G.GAME.dollar = -20 -- not sure why this needs to be in an event but it does
+                G.GAME.dollars = -10 -- not sure why this needs to be in an event but it does
                 
                 return true
             end
