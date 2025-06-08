@@ -6,9 +6,9 @@
 	"prefix": "vaga",
 	"main_file": "main.lua",
 	"priority": 0,
-	"badge_text_colour": "FFFFFF",
-	"display_name": "Vagabbond",
-	"version": "1.0.1",
+	"badge_text_colour": "E0BA73",
+	"display_name": "Vagabond",
+	"version": "1.0.2",
 	"dependencies": [
 		"Steamodded (>=1.*)",
 		"Lovely (>=0.6)"
