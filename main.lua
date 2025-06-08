@@ -15,22 +15,13 @@ SMODS.Back {
     loc_txt = {
         name ="Vagabonded Deck",
         text={
-            "Start with {C:money}$-10{} and",
-            "earn no {C:attention}Interest{}, but all",
+            "Earn no {C:attention}Interest{}, but all",
             "{C:tarot}Tarot{} cards and packs",
             "are free."
         },
     },
     apply = function(self)
         G.GAME.interest_cap = 0
-        
-        G.E_MANAGER:add_event(Event({
-            func = function()
-                G.GAME.dollars = -10 -- not sure why this needs to be in an event but it does
-                
-                return true
-            end
-        }))
 
         local set_cost_old = Card.set_cost
 
